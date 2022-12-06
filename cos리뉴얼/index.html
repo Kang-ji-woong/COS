@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="./script/jquery-1.12.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./script/script.js"></script>
+    <title>COS</title>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 헤더 -->
+        <header>
+            <div class="t-header">
+            <p>연말 시즌을 위한 새로운 컬렉션 ㅣ <a href="#none">남성 컬렉션</a></p>
+            </div>
+            <div class="main-header">
+                <div class="logo">
+                    <a href="#none">
+                        <img src="./img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <ul class="main-menu">
+                    <li data-alt="tab1"><a href="#none">신상품</a></li>
+                    <li data-alt="tab2"><a href="#none">상의</a></li>
+                    <li data-alt="tab3"><a href="#none">하의</a></li>
+                    <li data-alt="tab4"><a href="#none">악세서리</a></li>
+                </ul>
+                <div class="r-menu">
+                    <div class="search-logo">
+                        <a href="#none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <path d="M66.782 66.4336L54.3198 53.9714" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.5775 30.724C15.8197 22.3559 22.3559 15.8197 30.724 13.5775C39.092 11.3353 48.0206 13.7277 54.1464 19.8536C60.2723 25.9794 62.6647 34.908 60.4225 43.276C58.1802 51.6441 51.6441 58.1802 43.276 60.4225C34.908 62.6647 25.9794 60.2723 19.8536 54.1464C13.7277 48.0206 11.3353 39.092 13.5775 30.724Z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="r-txt">
+                        <a href="#none"><span>검색</span></a>
+                        <a href="#none"><span>로그인</span></a>
+                        <a href="#none"><span>배송국가 : 대한민국</span></a>
+                    </div>
+                    <div class="heart-logo">
+                        <a href="#none"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <path d="M39.7279 23.9285L36.8995 21.1C34.274 18.4745 30.713 16.9995 27 16.9995C23.287 16.9995 19.726 18.4745 17.1005 21.1C14.475 23.7255 13 27.2865 13 30.9995C13 34.7125 14.475 38.2735 17.1005 40.899L31.1813 54.9798C31.2016 55.0003 31.222 55.0208 31.2425 55.0413L38.3136 62.1124C38.7041 62.5029 39.216 62.6982 39.7279 62.6982" stroke="#1b1b1b" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M39.728 23.9283L42.5563 21.1C45.1818 18.4745 48.7428 16.9995 52.4558 16.9995C56.1688 16.9995 59.7298 18.4745 62.3553 21.1C64.9808 23.7255 66.4558 27.2865 66.4558 30.9995C66.4558 34.7125 64.9808 38.2735 62.3553 40.899L41.1421 62.1122C40.7516 62.5027 40.2398 62.698 39.728 62.698" stroke="#1b1b1b" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg></a>   
+                    </div>
+                    <div class="bag-logo">
+                        <a href="#none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <path d="M17.7125 31.9162C17.8778 30.8148 18.8239 30 19.9376 30H60.0623C61.176 30 62.1222 30.8148 62.2874 31.9162L67.6124 67.4162C67.8165 68.7766 66.7629 70 65.3873 70H14.6126C13.2371 70 12.1835 68.7766 12.3875 67.4162L17.7125 31.9162Z" stroke="#1b1b1b" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M52 38V22C52 15.3726 46.6274 10 40 10C33.3726 10 28 15.3726 28 22V38" stroke="#1b1b1b" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- 서브 메뉴 박스 -->
+        <div class="sub-menu-box">
+            <ul id="tab1" class="sub-menu new">
+                <li class="menu-left">
+                    <a href="#none" class="sub-menu-detail">
+                        <div class="sub-menu-body">
+                            신상품 의류
+                        </div>
+                        <div class="sub-menu-body">
+                            신상품 악세서리
+                        </div>
+                    </a>
+                </li>
+                <li class="menu-right">
+                    <a href="#none" class="sub-menu-detail photo">
+                        <img src="./img/sub01.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <ul id="tab2" class="sub-menu tops">
+                <li class="menu-left">
+                    <a href="#none" class="sub-menu-detail">
+                        <div class="sub-menu-body">아우터 웨어</div>
+                        <div class="sub-menu-body">니트 웨어</div>
+                        <div class="sub-menu-body">스웻 셔츠</div>
+                        <div class="sub-menu-body">폴로 셔츠</div>
+                    </a>
+                    <a href="#none" class="sub-menu-detail">
+                        <div class="sub-menu-body">셔츠</div>
+                        <div class="sub-menu-body">티셔츠</div>
+                    </a>
+                </li>
+                <li class="menu-right">
+                    <a href="" class="sub-menu-detail photo">
+                        <img src="./img/sub02.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <ul id="tab3" class="sub-menu bottom">
+                <li class="menu-left">
+                    <a href="#none" class="sub-menu-detail">
+                        <div class="sub-menu-body">레귤러 핏 트라우저</div>
+                        <div class="sub-menu-body">릴랙스드 핏 트라우저</div>
+                        <div class="sub-menu-body">와이드 레그 트라우저</div>
+                        <div class="sub-menu-body">슬림 핏 트라우저</div>
+                        <div class="sub-menu-body">진</div>
+                    </a>
+                </li>
+                <li class="menu-right">
+                    <a href="#none" class="sub-menu-detail photo">
+                        <img src="./img/sub3.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <ul id="tab4" class="sub-menu acc">
+                <li class="menu-left">
+                    <a href="#none" class="sub-menu-detail">
+                        <div class="sub-menu-body">스카프</div>
+                        <div class="sub-menu-body">모자</div>
+                        <div class="sub-menu-body">지갑</div>
+                        <div class="sub-menu-body">가방</div>
+                    </a>
+                    <a href="#none" class="sub-menu-detail">
+                        <div class="sub-menu-body">슈즈</div>
+                        <div class="sub-menu-body">양말</div>
+                        <div class="sub-menu-body">벨트</div>
+                    </a>
+                </li>
+                <li class="menu-right">
+                    <a href="#none" class="sub-menu-detail photo">
+                        <img src="./img/sub04.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+        <!-- 배너 -->
+        <div class="banner">
+            <video src="./video/COS_22AW.mp4" autoplay muted loop playsinline data-keeplaying></video>
+        </div>
+        <section class="sec-1">
+            <div class="container">
+                <div class="txt-box">
+                     <h3>The New<br>Dress Code</h3>
+                     <button class="btn">남성 신상품 더보기</button>
+                </div>
+                <div class="pic-box swiper firstSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/New01.jpg" alt="">
+                            <p>레귤러 핏 크루넥 스웨터</p>
+                            <div class="hover"><img src="./img/new01hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/new02.jpg" alt="">
+                            <p>레귤러 핏 가디건</p>
+                            <div class="hover"><img src="./img/new02hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/new03.jpg" alt="">
+                            <p>리버서블 패딩 질레</p>
+                            <div class="hover"><img src="./img/new03hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/new04.jpg" alt="">
+                            <p>레귤러 핏 레그 트라우저</p>
+                            <div class="hover"><img src="./img/new04hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/new05.jpg" alt="">
+                            <p>릴랙스드 핏 체크 브이넥 스웨터</p>
+                            <div class="hover"><img src="./img/new05hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/new06.jpg" alt="">
+                            <p>릴랙스드 핏 와이드 울 트라우저</p>
+                            <div class="hover"><img src="./img/new06hover.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- 수정 -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-2">
+            <div class="container">
+                <div class="left">
+                    <img src="./img/cos_gift.jpg" alt="">
+                </div>
+                <div class="txt-box">
+                    <h3>The Gift<br>Package</h3>
+                    <button class="btn">선물 포장 안내보기</button>
+                </div>
+            </div>
+        </section>
+        <section class="sec2-1">
+            <div class="container">
+                <div class="txt-box">
+                     <h3>Gifts For<br>Him</h3>
+                     <button class="btn">남성 선물 상품 더보기</button>
+                </div>
+                <div class="pic-box swiper secondSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/gift01.jpg" alt="">
+                            <p>레귤러 핏 코듀로이 치노</p>
+                            <div class="hover"><img src="./img/gift01hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gift02.jpg" alt="">
+                            <p>레귤러 핏 코듀로이 오버셔츠</p>
+                            <div class="hover"><img src="./img/gift02hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gift03.jpg" alt="">
+                            <p>메리노 울 비니</p>
+                            <div class="hover"><img src="./img/gift03hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gift04.jpg" alt="">
+                            <p>레귤러 핏 모헤어 블렌드 스웨터</p>
+                            <div class="hover"><img src="./img/gift04hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gift05.jpg" alt="">
+                            <p>오버사이즈 알파카 스카프</p>
+                            <div class="hover"><img src="./img/gift05hover.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/gift06.jpg" alt="">
+                            <p>테디 버킷 햇</p>
+                            <div class="hover"><img src="./img/gifthover06.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="sec-3">
+            <div class="container">
+                <div class="left">
+                    <img src="./img/party01.jpg" alt="" class="large">
+                    <div class="inner-pic">
+                        <img src="./img/party02.jpg" alt=""     class="small">
+                        <img src="./img/party03.jpg" alt=""     class="small">
+                    </div>
+                </div>
+                <div class="txt-box">
+                    <h3>Holiday For</h3>
+                    <h3>Partywear</h3>
+                    <button class="btn">남성 파티웨어</button>
+                </div>
+            </div>
+        </section>
+        <section class="sec3-1">
+            <div class="container">
+                <div class="txt-box">
+                    <h3>Home For<br>
+                    The Holidays</h3>
+                    <button class="btn">남성 홈 웨어 더보기</button>
+               </div>
+               <div class="pic-box swiper thirdSwiper">
+                   <div class="swiper-wrapper">
+                       <div class="swiper-slide">
+                           <img src="./img/home01.jpg" alt="">
+                           <p>릴랙스드 핏 울 스웨터</p>
+                           <div class="hover"><img src="./img/home01hover.jpg" alt=""></div>
+                       </div>
+                       <div class="swiper-slide">
+                           <img src="./img/home02.jpg" alt="">
+                           <p>릴랙스드 핏 하프 집업 스웻셔츠</p>
+                           <div class="hover"><img src="./img/home02hover.jpg" alt=""></div>
+                       </div>
+                       <div class="swiper-slide">
+                           <img src="./img/home03.jpg" alt="">
+                           <p>오버사이즈 테이퍼드 조거</p>
+                           <div class="hover"><img src="./img/home03hover.jpg" alt=""></div>
+                       </div>
+                       <div class="swiper-slide">
+                           <img src="./img/home04.jpg" alt="">
+                           <p>릴랙스드 핏 모크넥 스웻셔츠</p>
+                           <div class="hover"><img src="./img/home04hover.jpg" alt=""></div>
+                       </div>
+                       <div class="swiper-slide">
+                           <img src="./img/home05.jpg" alt="">
+                           <p>릴랙스드 핏 립스탑 플리스 질레</p>
+                           <div class="hover"><img src="./img/home05hover.jpg" alt=""></div>
+                       </div>
+                   </div>
+                   <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+               </div> 
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <span></span>
+                 <div class="t-footer">
+                    <div class="txt-box box1">
+                        <a href="#none">고객 서비스</a>
+                        <a href="#none">매장 찾기</a>
+                        <a href="#none">배송 정보</a>
+                        <a href="#none">반품 및 환불</a>
+                        <a href="#none">결제 정보</a>
+                    </div>
+                    <div class="txt-box box2">
+                        <a href="#none">지속가능성</a>
+                        <a href="#none">협력업체</a>
+                        <a href="#none">다양성 & 포용성</a>
+                        <a href="#none">COS By You</a>
+                        <a href="#none">제품관리</a>
+                        <a href="#none">채용 정보</a>
+                        <a href="#none">프레스 문의</a>
+                        <a href="#none">고객문의</a>
+                    </div>
+                    <div class="txt-box box3">
+                        <a href="#none">Kakaotalk</a>
+                        <a href="#none">Instagram</a>
+                        <a href="#none">Facebook</a>
+                        <a href="#none">Pinterest</a>
+                        <a href="#none">Spotify</a>
+                    </div>
+                 </div> 
+                 <div class="b-footer">
+                    <div class="h-logo">
+                        <a href="#none"><img src="./img/footer_hyundai.png" alt=""></a>
+                    </div>   
+                    <div class="txt-box">
+                        <a href="#none">이용약관</a>
+                        <a href="#none">개인정보처리방침</a>
+                        <a href="#none">현대백화점 그룹</a>
+                        <div class="bottom">
+                            COS 온라인 스토어는<br> 더현대 닷컴을 이용하고 있습니다
+                        </div>
+                    </div>
+                    <div class="main-copy">
+                        <div class="explain">
+                            주식회사 현대백화점 대표이사 : 김형종 외 2인 서울시 강남구 테헤란로98길 12 <br>/
+                            사업자등록번호 : 211-87-21455 <a href="#none">[사업자정보 확인]</a> / 통신판매업신고 :                      2010-서울강남-01882 /<br>
+                            개인정보관리 및 청소년보호 책임자 : 회원운영관리담당 장근혁 / 홈페이지/                     앱 문의 : <a href="#none">customerservice.kr@cos.com</a>/<br>
+                             고객센터 : 1800-2765 / 호스팅서비스 : (주)현대백화점 / <br>
+                            고객님의 안전거래를 위해 현금결제시 우리은행과 채무지급보증계약을                       체결하여 안전거래를 보장하고 있습니다. <br>
+                            서비스 가입사실 확인
+                        </div>
+                        <div class="copy">
+                            CopyrightⓒHyundai Department Store. All rights reserved
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </footer>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</body>
+</html>
